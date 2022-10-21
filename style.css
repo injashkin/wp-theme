@@ -1,9 +1,29 @@
 /*   
-Theme Name: WP-Theme
+Theme Name: wp-theme
 Theme URI: https://github.com/injashkin/wp-theme
 Description: Тема WP-Theme является моей первой темой, которую я создаю для WordPress
 Author: injashkin
 Author https://jinv.ru/
-Version: 0.0.1
+Version: 1.0
 License: MIT
+
 */
+
+:root {
+  --main-color: #c2c2c2;
+  --main-color-text: #ff2f2f;
+}
+
+header {
+  padding: 1em;
+  background-color: var(--main-color);
+}
+
+p {
+  color: var(--main-color-text);
+}
+
+.site-footer {
+  padding: 1em;
+  background-color: var(--main-color);
+}
